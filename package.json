@@ -1,0 +1,17 @@
+{
+  "name": "11tyfirstsite",
+  "version": "1.0.0",
+  "description": "My first site with 11ty eleventy.",
+  "type": "module",
+  "main": ".eleventy.js",
+  "scripts": {
+    "dev": "npx @11ty/eleventy --serve",
+    "clean":"rm -rf docs"
+  },
+  "keywords": [],
+  "author": "antorrg",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}
